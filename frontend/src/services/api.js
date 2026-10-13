@@ -1,5 +1,6 @@
 const BACKEND_BASE_URL = "/api";
-const AI_BASE_URL = "http://127.0.0.1:8000/api";
+const AI_BASE_URL =
+  "https://peripherals-ends-worth-cables.trycloudflare.com/api";
 
 async function parseResponse(response) {
   if (response.status === 204) {
