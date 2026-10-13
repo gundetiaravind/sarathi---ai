@@ -1,0 +1,40 @@
+﻿# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Python AI service
+ai-service/.venv/
+ai-service/venv/
+ai-service/__pycache__/
+ai-service/**/__pycache__/
+ai-service/*.py[cod]
+ai-service/.env
+ai-service/.env.*
+!ai-service/.env.example
+
+# Java build output
+backend/target/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-prod.properties
+**/secrets/
+**/*.pem
+**/*.key
+
+# IDE and workspace files
+sts-workspace/
+**/.metadata/
+**/.idea/
+**/.vscode/
+
+# OS files and logs
+Thumbs.db
+.DS_Store
+*.log

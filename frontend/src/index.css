@@ -1,0 +1,57 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap");
+
+:root {
+  font-family: "Inter", "Noto Sans Devanagari", "Noto Sans Telugu",
+    Arial, sans-serif;
+  color: #111b21;
+  background: #f0f2f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid #128c7e;
+  outline-offset: 2px;
+}
+
+::selection {
+  color: #ffffff;
+  background: #128c7e;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c7ced1 transparent;
+}
