@@ -38,3 +38,5 @@ sts-workspace/
 Thumbs.db
 .DS_Store
 *.log
+
+/backups/
